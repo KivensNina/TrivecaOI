@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.SqlClient;
 using DataAccess.SqlServer;
 
+
 namespace Domain
 {
     public class ClientModel
@@ -19,6 +20,7 @@ namespace Domain
             DataTable tabla = new DataTable();
             tabla = objetoCD.MostrarClientes();
             return tabla;
+
         }
         
     }
